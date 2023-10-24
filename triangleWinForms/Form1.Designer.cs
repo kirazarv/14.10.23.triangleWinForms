@@ -70,31 +70,31 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(89, 175);
+            this.label1.Location = new System.Drawing.Point(59, 168);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 33);
+            this.label1.Size = new System.Drawing.Size(134, 33);
             this.label1.TabIndex = 3;
-            this.label1.Text = "side 1 ";
+            this.label1.Text = "сторона 1 ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(89, 233);
+            this.label2.Location = new System.Drawing.Point(59, 233);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 29);
+            this.label2.Size = new System.Drawing.Size(124, 29);
             this.label2.TabIndex = 4;
-            this.label2.Text = "side 2";
+            this.label2.Text = "сторона 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(89, 293);
+            this.label3.Location = new System.Drawing.Point(59, 293);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 29);
+            this.label3.Size = new System.Drawing.Size(124, 29);
             this.label3.TabIndex = 5;
-            this.label3.Text = "side 3";
+            this.label3.Text = "сторона 3";
             // 
             // label4
             // 
@@ -103,8 +103,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(478, 108);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Enter the lengths of the sides of a triangle in the boxes below. Use the same len" +
-    "gth units for all sides.";
+            this.label4.Text = "Введите длины сторон треугольника в окошки внизу. ";
             // 
             // textBox4
             // 
@@ -120,9 +119,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(468, 203);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 52);
+            this.button1.Size = new System.Drawing.Size(226, 52);
             this.button1.TabIndex = 8;
-            this.button1.Text = "analyse";
+            this.button1.Text = "анализировать";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

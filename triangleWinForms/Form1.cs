@@ -39,21 +39,31 @@ namespace triangleWinForms
                         sumxy = x + y;
                         sumxz = x + z;
                         sumyz = y + z;
-                        if ((sumxy > z) || (sumxz > y))
+                        if (sumxy > z)
                         {
-                            exists = true;
-                        }
-                        else
-                        {
-                            if (sumyz > x)
+                            if (sumxz > y)
                             {
-                                exists = true;
+                                if (sumyz > x)
+                                {
+                                    exists = true;
+                                }
+                                else
+                                {
+                                    exists = false;
+                                    textBox4.Text = "Треугольник с такими длинами сторон не существует";
+                                }
                             }
                             else
                             {
                                 exists = false;
                                 textBox4.Text = "Треугольник с такими длинами сторон не существует";
                             }
+                            
+                        }
+                        else
+                        {
+                            exists = false;
+                            textBox4.Text = "Треугольник с такими длинами сторон не существует";
                         }
                         if (exists)
                         {
