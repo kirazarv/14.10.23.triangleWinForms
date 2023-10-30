@@ -103,6 +103,11 @@ namespace triangleWinForms
             
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar)) return;
